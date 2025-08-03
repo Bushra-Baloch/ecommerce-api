@@ -32,3 +32,15 @@ Includes user authentication, product management, shopping cart, and order syste
 ```bash
 git clone https://github.com/Bushra-Baloch/ecommerce-api.git
 cd ecommerce-api
+
+| Action           | Method | Endpoint                 |
+| ---------------- | ------ | ------------------------ |
+| JWT Login        | POST   | `/api/token/`            |
+| Products List    | GET    | `/api/products/`         |
+| Product Search   | GET    | `/api/products/?search=` |
+| Add to Cart      | POST   | `/api/cart/add/`         |
+| View Cart        | GET    | `/api/cart/`             |
+| Remove from Cart | DELETE | `/api/cart/remove/<id>/` |
+| Place Order      | POST   | `/api/orders/place/`     |
+| Order History    | GET    | `/api/orders/my/`        |
+
